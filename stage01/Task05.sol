@@ -1,28 +1,20 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract Task06{
-    function mergeSortedArray(uint[] memory arr,uint target) public pure returns (uint) {
-        uint result = 0;
-        uint left = 0;
-        uint right = arr.length -1;
-        uint middle = arr.length /2;
-            while(true){
-                if(left == right){
-                    if(arr[left] == target){
-                        result = left;
-                    }
-                    break;
-                }
-                if(arr[middle] == target){
-                    return middle;
-                } else if(arr[middle] < target){
-                    left = middle +1;
-                }else {
-                    right = middle;
-                }
-                middle = left + (right -left)/2;
-            }
+contract Task05{
+
+
+    function mergeSortedArray(uint[] memory arr1,uint[] memory arr2) public pure returns (uint[] memory) {
+        uint[] memory result = new uint[](arr1.length +arr2.length);
+        uint resultIndex = 0;
+        for(uint i = 0; i < arr1.length; i++){
+            result[resultIndex] = arr1[i];
+            resultIndex++;
+        }
+        for(uint i = 0; i < arr2.length; i++){
+            result[resultIndex] = arr2[i];
+            resultIndex++;
+        }
         return result;
-}
+    }
 }
