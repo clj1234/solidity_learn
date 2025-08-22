@@ -4,7 +4,8 @@ pragma solidity ^0.8;
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 
-// 合约地址：0x599BC5fB4F6bDc016982424c96A9D0cb6ACD997d
+// Sepolia合约地址：0x599BC5fB4F6bDc016982424c96A9D0cb6ACD997d
+// https://sepolia.etherscan.io/address/0x599bc5fb4f6bdc016982424c96a9d0cb6acd997d#events
 contract BeggingContract is Ownable {
     constructor() Ownable(msg.sender) {}
     mapping (address => uint) donateCountMap;
