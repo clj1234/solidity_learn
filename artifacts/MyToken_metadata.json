@@ -6,7 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_symbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_decimals",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -104,6 +120,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -119,6 +148,32 @@
 				"name": "mint",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -197,11 +252,11 @@
 	},
 	"sources": {
 		"stage02/task01/MyToken.sol": {
-			"keccak256": "0xb254bb3615ef1d21a4617fbb4ba91960dd34394c4e3fe146bfbb43b823170f87",
+			"keccak256": "0x4d4fe3463029c45fb76083df9370c232f118bf9a89627693aa900aec01122530",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://23b45e7545065554b1a89d130924787f3581b020f4f50f74c9d622e4eb8cb715",
-				"dweb:/ipfs/QmbjT57DurzVJ1Ad8H3xYNuaztoTHz2KBdWamjahMj14L3"
+				"bzz-raw://92d9fa8339c93ceca23797efbda8b3c1b1cbc06226bc163138b24bd2d8fa2f8e",
+				"dweb:/ipfs/QmevLf7tbJupbPSoFAEwuZ8cqLWoXaJ63wSK1MDQ4L2xDU"
 			]
 		}
 	},

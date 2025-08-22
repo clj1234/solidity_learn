@@ -8,8 +8,18 @@ contract MyToken {
 
     address private owner;
 
-    constructor(){
+    string public symbol;
+
+    string public name;
+
+    uint public decimals;
+
+
+    constructor(string memory _symbol , string memory _name,uint _decimals){
         owner = msg.sender;
+        symbol = _symbol;
+        name = _name;
+        decimals = _decimals;
         mint(owner, 100000);
     }
 

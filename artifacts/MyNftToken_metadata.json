@@ -798,11 +798,11 @@
 			]
 		},
 		"stage02/task02/MyNftToken.sol": {
-			"keccak256": "0xd68cc79fb77b8e85e70fbbe3ede95126124f3d27a532c95a57f9a6488273fbaa",
+			"keccak256": "0x1f7626f358a60e0724a9af3d23991fb3e98643e53e99a1f5251fba88e336c2ee",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://13cfe70223031cabd2a70162d31f281f96d14706e3bafde29445c8fa5be620fe",
-				"dweb:/ipfs/QmXpohUnUcz5EbCdjXQ7TgYqmhCqfnJ9NV9FD2PV4bdASH"
+				"bzz-raw://073009a6412b33db3ac0d2cecbfc487f2df0a43bef7f49d7fde44c7e632257bd",
+				"dweb:/ipfs/QmP3UvgmWyBjiNLbuf6abLBEgYgxtWKnaEa5wAjnKLJ3UA"
 			]
 		}
 	},
