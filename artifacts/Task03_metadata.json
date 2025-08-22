@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "num",
+						"type": "uint16"
+					}
+				],
+				"name": "intToRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"stage01/Task04.sol": "Task03"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"stage01/Task04.sol": {
+			"keccak256": "0xfd854ea8d2f3fad673b582f8f3e3bcadbd8d32527c4730a0f6c5b16954c0c6da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c5eeab3d40f843b2a2fbb584e276378db29cb476b174f5b174b1f000dd76e4d",
+				"dweb:/ipfs/QmY22DT38eavhrpZkqJSpR2jWRN97RB9zzKYrJngVppiGi"
+			]
+		}
+	},
+	"version": 1
+}
