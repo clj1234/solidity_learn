@@ -214,11 +214,11 @@
 			]
 		},
 		"stage02/task03/BeggingContract.sol": {
-			"keccak256": "0x808c768913b80aa9f92d574715362a67103f4bcc734263d41f47bbb66cd35ab3",
+			"keccak256": "0xb383586326e545ec7bbaf3c8d3a6c5c3c9999b539f89047e87efcb8d16d3786c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9d9c42cb3e0d2388fba160365c16928dbc2e1c039bd884ad7e75fe26754be6d6",
-				"dweb:/ipfs/QmdLwSBNvzPfAc5ipSN9rag9a4YSQWuW916wpnckF5ByRa"
+				"bzz-raw://1ff11b6e34588addc4b047828447df5c54dcf8a461e3e3ac6063446d4aeb0940",
+				"dweb:/ipfs/QmbQoGbrF4TZYNbvXpKphRUC87Pfr3HsWRq2i9XcbyHyPA"
 			]
 		}
 	},

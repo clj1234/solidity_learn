@@ -3,6 +3,8 @@ pragma solidity ^0.8;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+
+// 合约地址：0x599BC5fB4F6bDc016982424c96A9D0cb6ACD997d
 contract BeggingContract is Ownable {
     constructor() Ownable(msg.sender) {}
     mapping (address => uint) donateCountMap;
@@ -23,7 +25,4 @@ contract BeggingContract is Ownable {
         (bool success,) = to.call{value: amount}("");
         require(success,"Withdraw failed");
     }
-
-    // denate: https://sepolia.etherscan.io/tx/0x928e426b0d81ecc6f9e449deaec1afa61e20790b029fd350b61ab554b9b5e244
-    // getDonate:
 }
